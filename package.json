@@ -1,5 +1,5 @@
 {
-  "name": "egg-apollo",
+  "name": "@taccisum/egg-apollo",
   "version": "1.0.0",
   "description": "egg apollo client plugin base on ctrip-apollo",
   "eggPlugin": {

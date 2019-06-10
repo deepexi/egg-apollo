@@ -3,10 +3,10 @@
 [![NPM version][npm-image]][npm-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-apollo.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/egg-apollo
-[download-image]: https://img.shields.io/npm/dm/egg-apollo.svg?style=flat-square
-[download-url]: https://www.npmjs.com/package/egg-apollo
+[npm-image]: https://img.shields.io/npm/v/@taccisum/egg-apollo.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@taccisum/egg-apollo
+[download-image]: https://img.shields.io/npm/dm/@taccisum/egg-apollo.svg?style=flat-square
+[download-url]: https://www.npmjs.com/package/@taccisum/egg-apollo
 
 egg-apollo插件基于[ctrip-apollo v4.4.0](https://github.com/kaelzhang/ctrip-apollo)，帮助你在eggjs下快速与apollo配置中心进行集成。
 
@@ -15,7 +15,7 @@ egg-apollo插件基于[ctrip-apollo v4.4.0](https://github.com/kaelzhang/ctrip-a
 ### 通过npm仓库安装
 
 ```bash
-$ npm i egg-apollo --save
+$ npm i @taccisum/egg-apollo --save
 ```
 
 ## 使用
@@ -24,7 +24,7 @@ $ npm i egg-apollo --save
 // {app_root}/config/plugin.js
 exports.apollo = {
   enable: true,
-  package: 'egg-apollo',
+  package: '@taccisum/egg-apollo',
 };
 ```
 
