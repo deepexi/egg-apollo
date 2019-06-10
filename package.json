@@ -49,12 +49,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-apollo.git"
+    "url": "git+https://github.com/deepexi/egg-apollo.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/deepexi/egg-apollo/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-apollo#readme",
+  "homepage": "https://github.com/deepexi/egg-apollo#readme",
   "author": "taccisum",
   "license": "MIT"
 }
