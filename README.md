@@ -38,7 +38,7 @@ exports.apollo = {
   namespaces: [ 'application' ]
 
   // 其它配置沿用自ctrip-apollo，更多请参考 https://github.com/kaelzhang/ctrip-apollo
-  appId: 'foo-service', // apollo application id
+  appId: 'foo-service', // your application id in apollo
   host: 'http://localhost:8070',  // apollo config service地址
 };
 ```
