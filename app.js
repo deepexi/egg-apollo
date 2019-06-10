@@ -61,10 +61,10 @@ module.exports = class AppBootHook {
         const merged = helper.mergeConfigs(configs);
         const jsonObj = helper.parseToJson(merged);
 
-        this.app.coreLogger.info('合并apollo配置到本地egg配置');
+        this.app.coreLogger.info('merge apollo config into local config');
         _.assignIn(this.app.config, jsonObj);
       } catch (e) {
-        this.app.coreLogger.warn(`从apollo加载配置失败，错误信息：${e.message}`);
+        this.app.coreLogger.warn(`fail to load config from apollo, error message: ${e.message}`);
         delete this.app.apollo;
       }
     }
