@@ -44,4 +44,21 @@ describe('test/apollo.test.js', () => {
       assert(!app.apollo);
     });
   });
+
+  describe('fail-fetch', () => {
+    let app;
+    before(() => {
+      app = mock.app({
+        baseDir: 'apps/fail-fetch',
+      });
+    });
+
+    after(() => app.close());
+    afterEach(mock.restore);
+
+    it('should undefined app.apollo', async () => {
+      await app.ready();
+      assert(!app.apollo);
+    });
+  });
 });
