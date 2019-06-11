@@ -62,7 +62,7 @@ module.exports = class AppBootHook {
         const jsonObj = helper.parseToJson(merged);
 
         this.app.coreLogger.info('merge apollo config into local config');
-        _.assignIn(this.app.config, jsonObj);
+        _.merge(this.app.config, jsonObj);
       } catch (e) {
         this.app.coreLogger.warn(`fail to load config from apollo, error message: ${e.message}`);
         delete this.app.apollo;
